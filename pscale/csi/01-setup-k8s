@@ -1,3 +1,17 @@
+# Login to u01
+    # Open Putty
+    # Connect to double click u01 saved session
+    # Username: root
+    # Password: <in the lab introduction table of credentials>
+
+# git clone this repo
+git clone https://github.com/j-sims/pscale_guides
+
+# cd pscale_guides/pscale/csi
+
+# Display the Guide
+cat 01-setup-k8s
+
 # Install K8s from snap
 sudo snap install k8s --classic
 
