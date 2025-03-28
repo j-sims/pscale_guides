@@ -1,0 +1,11 @@
+# Install K8s from snap
+sudo snap install k8s --classic
+
+#Bootstrap the cluster
+sudo k8s bootstrap
+
+# View status of your installation
+sudo k8s status
+
+#Start using Kubernetes
+sudo k8s kubectl get all --all-namespaces
